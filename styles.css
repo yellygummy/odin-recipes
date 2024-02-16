@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+}
+
+/************* Font & Text Alignment *************/
+
+.md-fs {
+    font-size: 2rem;
+}
+
+.lg-fs {
+    font-size: 5rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/************* Color *************/
+
+.white {
+    color: white;
+}
+
+.blue {
+    color: #40A2E3;
+}
+
+.light-blue {
+    color: #BBE2EC;
+}
+
+.light-beige {
+    color: #FFF6E9;
+}
+
+.green {
+    color: #0D9276;
+}
+
+
+/************* Selectors *************/
+
+.container {
+    width: 50%;
+    height: 500px;
+    margin: 5rem auto;
+    padding: 2rem;
+    background-color: #0D9276;
+    border-radius: 20px;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+ul {
+    text-decoration: none;
+    line-height: 3rem;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color:#FFF6E9;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #BBE2EC;
+}
